@@ -1,12 +1,10 @@
 {
   "name": "kfz-ki-backend",
   "version": "1.0.0",
-  "description": "KFZ-Mechatroniker KI-Assistent Backend",
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
